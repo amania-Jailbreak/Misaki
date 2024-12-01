@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&display=swap');body{
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    color: #FAFAFA;
+}
+
+.ffmpegnotinstalled{
+    text-align: center;
+    margin-top:50px;
+}
+header{
+    display: grid;
+    text-align: left;
+    margin-bottom: 20px;
+    justify-content: start;
+    justify-items: start;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+header img{
+    grid-area:1/2/1/1;
+    width: 60px;
+    margin: 5px;
+}
+
+header h1{
+    grid-area:1/2/1/2;
+    margin-top: 15;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#app{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+}
+
+.apps{
+    display: grid;
+    text-align: left;
+    margin-bottom: 20px;
+    justify-content: start;
+    justify-items: start;
+    font-weight: 100;
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 15px;
+    width: 270px;
+    margin: 5px;
+}
+
+.apps img{
+    width: 60px;
+    border-radius: 15px;
+    margin: 5px;
+    grid-area: 1/2/1/1;
+}
+
+
+.apps h2{
+    padding-top: 15px;
+    font-size: 25px;
+    margin: 5px;
+    grid-area: 1/2/1/2;
+    text-align: left;
+    color: #F1F1F1;
+}
